@@ -1,0 +1,29 @@
+---
+title: "Preprocessing: COVID-19"
+author: "Samuel Chan"
+date: "2/28/2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+## Step-by-step pre-processing
+```{r}
+corona <- read.csv("shiny_01/corona.csv")
+corona$date <- as.Date(corona$date)
+str(corona)
+```
+
+```{r}
+vs <- corona[,c("confirmed", "suspected", "cured", "dead")]
+dat <- aggregate(vs, by=corona[,c("date", "countryCode")], FUN=sum)
+str(dat)
+```
+
+```{r}
+tail(dat)
+```
+

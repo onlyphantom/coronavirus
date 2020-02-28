@@ -7,7 +7,7 @@ ui <- fluidPage(
     sidebarPanel(
       selectInput("countrySelector",
                   label="Select a Country",
-                  choices=c("Singapore", "China", "Japan", "Korea", "United Kingdom"),
+                  choices=c("Singapore", "Japan", "Korea", "United Kingdom", "Malaysia"),
                   selected="Singapore")
     ),
     mainPanel(
@@ -19,18 +19,15 @@ ui <- fluidPage(
 server <- function(input, output){
   
   dat <- read.csv("corona.csv", stringsAsFactors = FALSE)
-  dat$date <- as.Date(corona$date)
+  dat$date <- as.Date(dat$date)
 
-
-  
   output$sgCasevsCured <- renderPlot({
-    
     country <- switch(input$countrySelector,
                       "Singapore" = "SG",
-                      "China" = "CN",
                       "Japan" = "JP",
                       "Korea" = "KR",
-                      "United Kingdom" = "GB"
+                      "United Kingdom" = "GB",
+                      "Malaysia" = "MY"
     )
     sg <- dat[dat$countryCode == country, ]
     plot(sg[,c("date", "confirmed")], type="s")
