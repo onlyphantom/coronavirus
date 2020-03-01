@@ -1,0 +1,1306 @@
+country,date,confirmed,deaths,recovered
+Australia,1/21/20 22:00,NA,NA,NA
+Australia,1/22/20 12:00,NA,NA,NA
+Australia,1/23/20 12:00,NA,NA,NA
+Australia,1/24/20 0:00,NA,NA,NA
+Australia,1/24/20 12:00,NA,NA,NA
+Australia,1/25/20 0:00,NA,NA,NA
+Australia,1/25/20 12:00,NA,NA,NA
+Australia,1/25/20 22:00,NA,NA,NA
+Australia,1/26/20 11:00,NA,NA,NA
+Australia,1/26/20 23:00,NA,NA,NA
+Australia,1/27/20 19:00,NA,NA,NA
+Australia,1/27/20 20:30,NA,NA,NA
+Australia,1/27/20 9:00,NA,NA,NA
+Australia,1/28/20 13:00,NA,NA,NA
+Australia,1/28/20 18:00,NA,NA,NA
+Australia,1/28/20 23:00,NA,NA,NA
+Australia,1/29/20 13:30,NA,NA,NA
+Australia,1/29/20 14:30,NA,NA,NA
+Australia,1/29/20 21:00,NA,NA,NA
+Australia,1/30/20 11:00,NA,NA,NA
+Australia,1/31/20 14:00,NA,NA,NA
+Australia,2/1/20 10:00,12,NA,NA
+Australia,2/10/20 10:30,15,0,2
+Australia,2/10/20 19:30,15,0,2
+Australia,2/11/20 10:50,15,0,2
+Australia,2/11/20 20:44,15,0,2
+Australia,2/12/20 10:20,15,0,2
+Australia,2/12/20 22:00,15,0,2
+Australia,2/13/20 10:00,15,0,2
+Australia,2/13/20 21:15,15,0,8
+Australia,2/14/20 11:23,15,0,8
+Australia,2/2/20 21:00,12,NA,NA
+Australia,2/3/20 21:00,12,NA,NA
+Australia,2/4/20 22:00,13,NA,NA
+Australia,2/4/20 9:40,12,NA,NA
+Australia,2/5/20 23:00,14,NA,NA
+Australia,2/5/20 9:00,13,NA,NA
+Australia,2/6/20 14:20,14,NA,NA
+Australia,2/6/20 9:00,14,NA,NA
+Australia,2/7/20 20:13,15,NA,NA
+Australia,2/7/20 22:50,15,NA,NA
+Australia,2/8/20 10:24,15,0,2
+Australia,2/8/20 23:04,15,0,2
+Australia,2/9/20 10:30,15,0,2
+Australia,2/9/20 23:20,15,0,2
+Belgium,1/21/20 22:00,NA,NA,NA
+Belgium,1/22/20 12:00,NA,NA,NA
+Belgium,1/23/20 12:00,NA,NA,NA
+Belgium,1/24/20 0:00,NA,NA,NA
+Belgium,1/24/20 12:00,NA,NA,NA
+Belgium,1/25/20 0:00,NA,NA,NA
+Belgium,1/25/20 12:00,NA,NA,NA
+Belgium,1/25/20 22:00,NA,NA,NA
+Belgium,1/26/20 11:00,NA,NA,NA
+Belgium,1/26/20 23:00,NA,NA,NA
+Belgium,1/27/20 19:00,NA,NA,NA
+Belgium,1/27/20 20:30,NA,NA,NA
+Belgium,1/27/20 9:00,NA,NA,NA
+Belgium,1/28/20 13:00,NA,NA,NA
+Belgium,1/28/20 18:00,NA,NA,NA
+Belgium,1/28/20 23:00,NA,NA,NA
+Belgium,1/29/20 13:30,NA,NA,NA
+Belgium,1/29/20 14:30,NA,NA,NA
+Belgium,1/29/20 21:00,NA,NA,NA
+Belgium,1/30/20 11:00,NA,NA,NA
+Belgium,1/31/20 14:00,NA,NA,NA
+Belgium,2/1/20 10:00,NA,NA,NA
+Belgium,2/10/20 10:30,1,0,0
+Belgium,2/10/20 19:30,1,0,0
+Belgium,2/11/20 10:50,1,0,0
+Belgium,2/11/20 20:44,1,0,0
+Belgium,2/12/20 10:20,1,0,0
+Belgium,2/12/20 22:00,1,0,0
+Belgium,2/13/20 10:00,1,0,0
+Belgium,2/13/20 21:15,1,0,0
+Belgium,2/14/20 11:23,1,0,0
+Belgium,2/2/20 21:00,NA,NA,NA
+Belgium,2/3/20 21:00,NA,NA,NA
+Belgium,2/4/20 22:00,1,NA,NA
+Belgium,2/4/20 9:40,1,NA,NA
+Belgium,2/5/20 23:00,1,NA,NA
+Belgium,2/5/20 9:00,1,NA,NA
+Belgium,2/6/20 14:20,1,NA,NA
+Belgium,2/6/20 9:00,1,NA,NA
+Belgium,2/7/20 20:13,1,NA,NA
+Belgium,2/7/20 22:50,1,NA,NA
+Belgium,2/8/20 10:24,1,0,0
+Belgium,2/8/20 23:04,1,0,0
+Belgium,2/9/20 10:30,1,0,0
+Belgium,2/9/20 23:20,1,0,0
+Cambodia,1/21/20 22:00,NA,NA,NA
+Cambodia,1/22/20 12:00,NA,NA,NA
+Cambodia,1/23/20 12:00,NA,NA,NA
+Cambodia,1/24/20 0:00,NA,NA,NA
+Cambodia,1/24/20 12:00,NA,NA,NA
+Cambodia,1/25/20 0:00,NA,NA,NA
+Cambodia,1/25/20 12:00,NA,NA,NA
+Cambodia,1/25/20 22:00,NA,NA,NA
+Cambodia,1/26/20 11:00,NA,NA,NA
+Cambodia,1/26/20 23:00,NA,NA,NA
+Cambodia,1/27/20 19:00,1,NA,NA
+Cambodia,1/27/20 20:30,1,NA,NA
+Cambodia,1/27/20 9:00,1,NA,NA
+Cambodia,1/28/20 13:00,1,NA,NA
+Cambodia,1/28/20 18:00,1,NA,NA
+Cambodia,1/28/20 23:00,1,NA,NA
+Cambodia,1/29/20 13:30,1,NA,NA
+Cambodia,1/29/20 14:30,1,NA,NA
+Cambodia,1/29/20 21:00,1,NA,NA
+Cambodia,1/30/20 11:00,1,NA,NA
+Cambodia,1/31/20 14:00,1,NA,NA
+Cambodia,2/1/20 10:00,1,NA,NA
+Cambodia,2/10/20 10:30,1,0,0
+Cambodia,2/10/20 19:30,1,0,0
+Cambodia,2/11/20 10:50,1,0,0
+Cambodia,2/11/20 20:44,1,0,0
+Cambodia,2/12/20 10:20,1,0,1
+Cambodia,2/12/20 22:00,1,0,1
+Cambodia,2/13/20 10:00,1,0,1
+Cambodia,2/13/20 21:15,1,0,1
+Cambodia,2/14/20 11:23,1,0,1
+Cambodia,2/2/20 21:00,1,NA,NA
+Cambodia,2/3/20 21:00,1,NA,NA
+Cambodia,2/4/20 22:00,1,NA,NA
+Cambodia,2/4/20 9:40,1,NA,NA
+Cambodia,2/5/20 23:00,1,NA,NA
+Cambodia,2/5/20 9:00,1,NA,NA
+Cambodia,2/6/20 14:20,1,NA,NA
+Cambodia,2/6/20 9:00,1,NA,NA
+Cambodia,2/7/20 20:13,1,NA,NA
+Cambodia,2/7/20 22:50,1,NA,NA
+Cambodia,2/8/20 10:24,1,0,0
+Cambodia,2/8/20 23:04,1,0,0
+Cambodia,2/9/20 10:30,1,0,0
+Cambodia,2/9/20 23:20,1,0,0
+Canada,1/21/20 22:00,NA,NA,NA
+Canada,1/22/20 12:00,NA,NA,NA
+Canada,1/23/20 12:00,NA,NA,NA
+Canada,1/24/20 0:00,NA,NA,NA
+Canada,1/24/20 12:00,NA,NA,NA
+Canada,1/25/20 0:00,NA,NA,NA
+Canada,1/25/20 12:00,NA,NA,NA
+Canada,1/25/20 22:00,NA,NA,NA
+Canada,1/26/20 11:00,NA,NA,NA
+Canada,1/26/20 23:00,NA,NA,NA
+Canada,1/27/20 19:00,NA,NA,NA
+Canada,1/27/20 20:30,NA,NA,NA
+Canada,1/27/20 9:00,NA,NA,NA
+Canada,1/28/20 13:00,NA,NA,NA
+Canada,1/28/20 18:00,NA,NA,NA
+Canada,1/28/20 23:00,NA,NA,NA
+Canada,1/29/20 13:30,NA,NA,NA
+Canada,1/29/20 14:30,NA,NA,NA
+Canada,1/29/20 21:00,NA,NA,NA
+Canada,1/30/20 11:00,NA,NA,NA
+Canada,1/31/20 14:00,4,NA,NA
+Canada,2/1/20 10:00,4,NA,NA
+Canada,2/10/20 10:30,7,0,0
+Canada,2/10/20 19:30,7,0,0
+Canada,2/11/20 10:50,7,0,0
+Canada,2/11/20 20:44,7,0,0
+Canada,2/12/20 10:20,7,0,0
+Canada,2/12/20 22:00,7,0,1
+Canada,2/13/20 10:00,7,0,1
+Canada,2/13/20 21:15,7,0,1
+Canada,2/14/20 11:23,7,0,1
+Canada,2/2/20 21:00,4,NA,NA
+Canada,2/3/20 21:00,4,NA,NA
+Canada,2/4/20 22:00,4,NA,NA
+Canada,2/4/20 9:40,4,NA,NA
+Canada,2/5/20 23:00,5,NA,NA
+Canada,2/5/20 9:00,4,NA,NA
+Canada,2/6/20 14:20,5,NA,NA
+Canada,2/6/20 9:00,5,NA,NA
+Canada,2/7/20 20:13,7,NA,NA
+Canada,2/7/20 22:50,7,NA,NA
+Canada,2/8/20 10:24,7,0,0
+Canada,2/8/20 23:04,7,0,0
+Canada,2/9/20 10:30,7,0,0
+Canada,2/9/20 23:20,7,0,0
+Finland,1/21/20 22:00,NA,NA,NA
+Finland,1/22/20 12:00,NA,NA,NA
+Finland,1/23/20 12:00,NA,NA,NA
+Finland,1/24/20 0:00,NA,NA,NA
+Finland,1/24/20 12:00,NA,NA,NA
+Finland,1/25/20 0:00,NA,NA,NA
+Finland,1/25/20 12:00,NA,NA,NA
+Finland,1/25/20 22:00,NA,NA,NA
+Finland,1/26/20 11:00,NA,NA,NA
+Finland,1/26/20 23:00,NA,NA,NA
+Finland,1/27/20 19:00,NA,NA,NA
+Finland,1/27/20 20:30,NA,NA,NA
+Finland,1/27/20 9:00,NA,NA,NA
+Finland,1/28/20 13:00,NA,NA,NA
+Finland,1/28/20 18:00,NA,NA,NA
+Finland,1/28/20 23:00,NA,NA,NA
+Finland,1/29/20 13:30,1,NA,NA
+Finland,1/29/20 14:30,1,NA,NA
+Finland,1/29/20 21:00,1,NA,NA
+Finland,1/30/20 11:00,1,NA,NA
+Finland,1/31/20 14:00,1,NA,NA
+Finland,2/1/20 10:00,1,NA,NA
+Finland,2/10/20 10:30,1,0,0
+Finland,2/10/20 19:30,1,0,0
+Finland,2/11/20 10:50,1,0,0
+Finland,2/11/20 20:44,1,0,1
+Finland,2/12/20 10:20,1,0,1
+Finland,2/12/20 22:00,1,0,1
+Finland,2/13/20 10:00,1,0,1
+Finland,2/13/20 21:15,1,0,1
+Finland,2/14/20 11:23,1,0,1
+Finland,2/2/20 21:00,1,NA,NA
+Finland,2/3/20 21:00,1,NA,NA
+Finland,2/4/20 22:00,1,NA,NA
+Finland,2/4/20 9:40,1,NA,NA
+Finland,2/5/20 23:00,1,NA,NA
+Finland,2/5/20 9:00,1,NA,NA
+Finland,2/6/20 14:20,1,NA,NA
+Finland,2/6/20 9:00,1,NA,NA
+Finland,2/7/20 20:13,1,NA,NA
+Finland,2/7/20 22:50,1,NA,NA
+Finland,2/8/20 10:24,1,0,0
+Finland,2/8/20 23:04,1,0,0
+Finland,2/9/20 10:30,1,0,0
+Finland,2/9/20 23:20,1,0,0
+France,1/21/20 22:00,NA,NA,NA
+France,1/22/20 12:00,NA,NA,NA
+France,1/23/20 12:00,NA,NA,NA
+France,1/24/20 0:00,NA,NA,NA
+France,1/24/20 12:00,2,NA,NA
+France,1/25/20 0:00,3,NA,NA
+France,1/25/20 12:00,3,NA,NA
+France,1/25/20 22:00,3,NA,NA
+France,1/26/20 11:00,3,NA,NA
+France,1/26/20 23:00,3,NA,NA
+France,1/27/20 19:00,3,NA,NA
+France,1/27/20 20:30,3,NA,NA
+France,1/27/20 9:00,3,NA,NA
+France,1/28/20 13:00,3,NA,NA
+France,1/28/20 18:00,4,NA,NA
+France,1/28/20 23:00,4,NA,NA
+France,1/29/20 13:30,4,NA,NA
+France,1/29/20 14:30,5,NA,NA
+France,1/29/20 21:00,5,NA,NA
+France,1/30/20 11:00,5,NA,NA
+France,1/31/20 14:00,5,NA,NA
+France,2/1/20 10:00,6,NA,NA
+France,2/10/20 10:30,11,0,0
+France,2/10/20 19:30,11,0,0
+France,2/11/20 10:50,11,0,0
+France,2/11/20 20:44,11,0,0
+France,2/12/20 10:20,11,0,0
+France,2/12/20 22:00,11,0,2
+France,2/13/20 10:00,11,0,2
+France,2/13/20 21:15,11,0,2
+France,2/14/20 11:23,11,0,2
+France,2/2/20 21:00,6,NA,NA
+France,2/3/20 21:00,6,NA,NA
+France,2/4/20 22:00,6,NA,NA
+France,2/4/20 9:40,6,NA,NA
+France,2/5/20 23:00,6,NA,NA
+France,2/5/20 9:00,6,NA,NA
+France,2/6/20 14:20,6,NA,NA
+France,2/6/20 9:00,6,NA,NA
+France,2/7/20 20:13,6,NA,NA
+France,2/7/20 22:50,6,NA,NA
+France,2/8/20 10:24,11,0,0
+France,2/8/20 23:04,11,0,0
+France,2/9/20 10:30,11,0,0
+France,2/9/20 23:20,11,0,0
+Germany,1/21/20 22:00,NA,NA,NA
+Germany,1/22/20 12:00,NA,NA,NA
+Germany,1/23/20 12:00,NA,NA,NA
+Germany,1/24/20 0:00,NA,NA,NA
+Germany,1/24/20 12:00,NA,NA,NA
+Germany,1/25/20 0:00,NA,NA,NA
+Germany,1/25/20 12:00,NA,NA,NA
+Germany,1/25/20 22:00,NA,NA,NA
+Germany,1/26/20 11:00,NA,NA,NA
+Germany,1/26/20 23:00,NA,NA,NA
+Germany,1/27/20 19:00,NA,NA,NA
+Germany,1/27/20 20:30,1,NA,NA
+Germany,1/27/20 9:00,NA,NA,NA
+Germany,1/28/20 13:00,1,NA,NA
+Germany,1/28/20 18:00,4,NA,NA
+Germany,1/28/20 23:00,4,NA,NA
+Germany,1/29/20 13:30,4,NA,NA
+Germany,1/29/20 14:30,4,NA,NA
+Germany,1/29/20 21:00,4,NA,NA
+Germany,1/30/20 11:00,4,NA,NA
+Germany,1/31/20 14:00,5,NA,NA
+Germany,2/1/20 10:00,7,NA,NA
+Germany,2/10/20 10:30,14,0,0
+Germany,2/10/20 19:30,14,0,0
+Germany,2/11/20 10:50,14,0,0
+Germany,2/11/20 20:44,16,0,0
+Germany,2/12/20 10:20,16,0,0
+Germany,2/12/20 22:00,16,0,0
+Germany,2/13/20 10:00,16,0,0
+Germany,2/13/20 21:15,16,0,1
+Germany,2/14/20 11:23,16,0,1
+Germany,2/2/20 21:00,10,NA,NA
+Germany,2/3/20 21:00,10,NA,NA
+Germany,2/4/20 22:00,12,NA,NA
+Germany,2/4/20 9:40,12,NA,NA
+Germany,2/5/20 23:00,12,NA,NA
+Germany,2/5/20 9:00,12,NA,NA
+Germany,2/6/20 14:20,12,NA,NA
+Germany,2/6/20 9:00,12,NA,NA
+Germany,2/7/20 20:13,13,NA,NA
+Germany,2/7/20 22:50,13,NA,NA
+Germany,2/8/20 10:24,13,0,0
+Germany,2/8/20 23:04,13,0,0
+Germany,2/9/20 10:30,14,0,0
+Germany,2/9/20 23:20,14,0,0
+Hong Kong,1/21/20 22:00,NA,NA,NA
+Hong Kong,1/22/20 12:00,NA,NA,NA
+Hong Kong,1/23/20 12:00,2,NA,NA
+Hong Kong,1/24/20 0:00,2,NA,NA
+Hong Kong,1/24/20 12:00,2,NA,NA
+Hong Kong,1/25/20 0:00,5,NA,NA
+Hong Kong,1/25/20 12:00,5,NA,NA
+Hong Kong,1/25/20 22:00,5,NA,NA
+Hong Kong,1/26/20 11:00,8,NA,NA
+Hong Kong,1/26/20 23:00,8,NA,NA
+Hong Kong,1/27/20 19:00,8,NA,NA
+Hong Kong,1/27/20 20:30,8,NA,NA
+Hong Kong,1/27/20 9:00,8,NA,NA
+Hong Kong,1/28/20 13:00,8,NA,NA
+Hong Kong,1/28/20 18:00,8,NA,NA
+Hong Kong,1/28/20 23:00,8,NA,NA
+Hong Kong,1/29/20 13:30,10,NA,NA
+Hong Kong,1/29/20 14:30,10,NA,NA
+Hong Kong,1/29/20 21:00,10,NA,NA
+Hong Kong,1/30/20 11:00,10,NA,NA
+Hong Kong,1/31/20 14:00,12,NA,NA
+Hong Kong,2/1/20 10:00,13,NA,NA
+Hong Kong,2/10/20 10:30,38,1,0
+Hong Kong,2/10/20 19:30,38,1,0
+Hong Kong,2/11/20 10:50,49,1,0
+Hong Kong,2/11/20 20:44,49,1,0
+Hong Kong,2/12/20 10:20,50,1,1
+Hong Kong,2/12/20 22:00,50,1,1
+Hong Kong,2/13/20 10:00,53,1,1
+Hong Kong,2/13/20 21:15,53,1,1
+Hong Kong,2/14/20 11:23,56,1,1
+Hong Kong,2/2/20 21:00,15,NA,NA
+Hong Kong,2/3/20 21:00,15,NA,NA
+Hong Kong,2/4/20 22:00,18,1,NA
+Hong Kong,2/4/20 9:40,15,NA,NA
+Hong Kong,2/5/20 23:00,21,1,NA
+Hong Kong,2/5/20 9:00,21,1,NA
+Hong Kong,2/6/20 14:20,24,1,NA
+Hong Kong,2/6/20 9:00,21,1,NA
+Hong Kong,2/7/20 20:13,25,1,NA
+Hong Kong,2/7/20 22:50,26,1,NA
+Hong Kong,2/8/20 10:24,26,1,0
+Hong Kong,2/8/20 23:04,26,1,0
+Hong Kong,2/9/20 10:30,29,1,0
+Hong Kong,2/9/20 23:20,36,1,0
+India,1/21/20 22:00,NA,NA,NA
+India,1/22/20 12:00,NA,NA,NA
+India,1/23/20 12:00,NA,NA,NA
+India,1/24/20 0:00,NA,NA,NA
+India,1/24/20 12:00,NA,NA,NA
+India,1/25/20 0:00,NA,NA,NA
+India,1/25/20 12:00,NA,NA,NA
+India,1/25/20 22:00,NA,NA,NA
+India,1/26/20 11:00,NA,NA,NA
+India,1/26/20 23:00,NA,NA,NA
+India,1/27/20 19:00,NA,NA,NA
+India,1/27/20 20:30,NA,NA,NA
+India,1/27/20 9:00,NA,NA,NA
+India,1/28/20 13:00,NA,NA,NA
+India,1/28/20 18:00,NA,NA,NA
+India,1/28/20 23:00,NA,NA,NA
+India,1/29/20 13:30,1,NA,NA
+India,1/29/20 14:30,NA,NA,NA
+India,1/29/20 21:00,NA,NA,NA
+India,1/30/20 11:00,1,NA,NA
+India,1/31/20 14:00,1,NA,NA
+India,2/1/20 10:00,1,NA,NA
+India,2/10/20 10:30,3,0,0
+India,2/10/20 19:30,3,0,0
+India,2/11/20 10:50,3,0,0
+India,2/11/20 20:44,3,0,0
+India,2/12/20 10:20,3,0,0
+India,2/12/20 22:00,3,0,0
+India,2/13/20 10:00,3,0,0
+India,2/13/20 21:15,3,0,0
+India,2/14/20 11:23,3,0,0
+India,2/2/20 21:00,2,NA,NA
+India,2/3/20 21:00,2,NA,NA
+India,2/4/20 22:00,3,NA,NA
+India,2/4/20 9:40,3,NA,NA
+India,2/5/20 23:00,3,NA,NA
+India,2/5/20 9:00,3,NA,NA
+India,2/6/20 14:20,3,NA,NA
+India,2/6/20 9:00,3,NA,NA
+India,2/7/20 20:13,3,NA,NA
+India,2/7/20 22:50,3,NA,NA
+India,2/8/20 10:24,3,0,0
+India,2/8/20 23:04,3,0,0
+India,2/9/20 10:30,3,0,0
+India,2/9/20 23:20,3,0,0
+Italy,1/21/20 22:00,NA,NA,NA
+Italy,1/22/20 12:00,NA,NA,NA
+Italy,1/23/20 12:00,NA,NA,NA
+Italy,1/24/20 0:00,NA,NA,NA
+Italy,1/24/20 12:00,NA,NA,NA
+Italy,1/25/20 0:00,NA,NA,NA
+Italy,1/25/20 12:00,NA,NA,NA
+Italy,1/25/20 22:00,NA,NA,NA
+Italy,1/26/20 11:00,NA,NA,NA
+Italy,1/26/20 23:00,NA,NA,NA
+Italy,1/27/20 19:00,NA,NA,NA
+Italy,1/27/20 20:30,NA,NA,NA
+Italy,1/27/20 9:00,NA,NA,NA
+Italy,1/28/20 13:00,NA,NA,NA
+Italy,1/28/20 18:00,NA,NA,NA
+Italy,1/28/20 23:00,NA,NA,NA
+Italy,1/29/20 13:30,NA,NA,NA
+Italy,1/29/20 14:30,NA,NA,NA
+Italy,1/29/20 21:00,NA,NA,NA
+Italy,1/30/20 11:00,NA,NA,NA
+Italy,1/31/20 14:00,2,NA,NA
+Italy,2/1/20 10:00,2,NA,NA
+Italy,2/10/20 10:30,3,0,0
+Italy,2/10/20 19:30,3,0,0
+Italy,2/11/20 10:50,3,0,0
+Italy,2/11/20 20:44,3,0,0
+Italy,2/12/20 10:20,3,0,0
+Italy,2/12/20 22:00,3,0,0
+Italy,2/13/20 10:00,3,0,0
+Italy,2/13/20 21:15,3,0,0
+Italy,2/14/20 11:23,3,0,0
+Italy,2/2/20 21:00,2,NA,NA
+Italy,2/3/20 21:00,2,NA,NA
+Italy,2/4/20 22:00,2,NA,NA
+Italy,2/4/20 9:40,2,NA,NA
+Italy,2/5/20 23:00,2,NA,NA
+Italy,2/5/20 9:00,2,NA,NA
+Italy,2/6/20 14:20,2,NA,NA
+Italy,2/6/20 9:00,2,NA,NA
+Italy,2/7/20 20:13,3,NA,NA
+Italy,2/7/20 22:50,3,NA,NA
+Italy,2/8/20 10:24,3,0,0
+Italy,2/8/20 23:04,3,0,0
+Italy,2/9/20 10:30,3,0,0
+Italy,2/9/20 23:20,3,0,0
+Japan,1/21/20 22:00,1,NA,NA
+Japan,1/22/20 12:00,2,NA,NA
+Japan,1/23/20 12:00,2,NA,NA
+Japan,1/24/20 0:00,2,NA,NA
+Japan,1/24/20 12:00,2,NA,NA
+Japan,1/25/20 0:00,2,NA,NA
+Japan,1/25/20 12:00,2,NA,NA
+Japan,1/25/20 22:00,2,NA,NA
+Japan,1/26/20 11:00,4,NA,1
+Japan,1/26/20 23:00,4,NA,1
+Japan,1/27/20 19:00,4,NA,1
+Japan,1/27/20 20:30,4,NA,1
+Japan,1/27/20 9:00,4,NA,1
+Japan,1/28/20 13:00,7,NA,1
+Japan,1/28/20 18:00,7,NA,1
+Japan,1/28/20 23:00,7,NA,1
+Japan,1/29/20 13:30,7,NA,1
+Japan,1/29/20 14:30,7,NA,1
+Japan,1/29/20 21:00,11,NA,1
+Japan,1/30/20 11:00,11,NA,1
+Japan,1/31/20 14:00,15,NA,1
+Japan,2/1/20 10:00,17,NA,1
+Japan,2/10/20 10:30,26,0,4
+Japan,2/10/20 19:30,26,0,4
+Japan,2/11/20 10:50,26,0,9
+Japan,2/11/20 20:44,26,0,9
+Japan,2/12/20 10:20,28,0,9
+Japan,2/12/20 22:00,28,0,9
+Japan,2/13/20 10:00,28,1,9
+Japan,2/13/20 21:15,28,1,9
+Japan,2/14/20 11:23,29,1,9
+Japan,2/2/20 21:00,20,NA,1
+Japan,2/3/20 21:00,20,NA,1
+Japan,2/4/20 22:00,22,NA,1
+Japan,2/4/20 9:40,20,NA,1
+Japan,2/5/20 23:00,45,NA,1
+Japan,2/5/20 9:00,22,NA,1
+Japan,2/6/20 14:20,45,NA,1
+Japan,2/6/20 9:00,45,NA,1
+Japan,2/7/20 20:13,25,NA,1
+Japan,2/7/20 22:50,25,NA,1
+Japan,2/8/20 10:24,25,0,1
+Japan,2/8/20 23:04,25,0,1
+Japan,2/9/20 10:30,26,0,1
+Japan,2/9/20 23:20,26,0,1
+Macau,1/21/20 22:00,NA,NA,NA
+Macau,1/22/20 12:00,1,NA,NA
+Macau,1/23/20 12:00,2,NA,NA
+Macau,1/24/20 0:00,2,NA,NA
+Macau,1/24/20 12:00,2,NA,NA
+Macau,1/25/20 0:00,2,NA,NA
+Macau,1/25/20 12:00,2,NA,NA
+Macau,1/25/20 22:00,2,NA,NA
+Macau,1/26/20 11:00,5,NA,NA
+Macau,1/26/20 23:00,6,NA,NA
+Macau,1/27/20 19:00,6,NA,NA
+Macau,1/27/20 20:30,6,NA,NA
+Macau,1/27/20 9:00,6,NA,NA
+Macau,1/28/20 13:00,7,NA,NA
+Macau,1/28/20 18:00,7,NA,NA
+Macau,1/28/20 23:00,7,NA,NA
+Macau,1/29/20 13:30,7,NA,NA
+Macau,1/29/20 14:30,7,NA,NA
+Macau,1/29/20 21:00,7,NA,NA
+Macau,1/30/20 11:00,7,NA,NA
+Macau,1/31/20 14:00,7,NA,NA
+Macau,2/1/20 10:00,7,NA,NA
+Macau,2/10/20 10:30,10,0,1
+Macau,2/10/20 19:30,10,0,1
+Macau,2/11/20 10:50,10,0,1
+Macau,2/11/20 20:44,10,0,1
+Macau,2/12/20 10:20,10,0,2
+Macau,2/12/20 22:00,10,0,2
+Macau,2/13/20 10:00,10,0,3
+Macau,2/13/20 21:15,10,0,3
+Macau,2/14/20 11:23,10,0,3
+Macau,2/2/20 21:00,8,NA,NA
+Macau,2/3/20 21:00,8,NA,NA
+Macau,2/4/20 22:00,10,NA,NA
+Macau,2/4/20 9:40,8,NA,NA
+Macau,2/5/20 23:00,10,NA,NA
+Macau,2/5/20 9:00,10,NA,NA
+Macau,2/6/20 14:20,10,NA,1
+Macau,2/6/20 9:00,10,NA,NA
+Macau,2/7/20 20:13,10,NA,1
+Macau,2/7/20 22:50,10,NA,1
+Macau,2/8/20 10:24,10,0,1
+Macau,2/8/20 23:04,10,0,1
+Macau,2/9/20 10:30,10,0,1
+Macau,2/9/20 23:20,10,0,1
+Mainland China,1/21/20 22:00,NA,NA,NA
+Mainland China,1/22/20 12:00,NA,NA,NA
+Mainland China,1/23/20 12:00,NA,NA,NA
+Mainland China,1/24/20 0:00,NA,NA,NA
+Mainland China,1/24/20 12:00,NA,NA,NA
+Mainland China,1/25/20 0:00,NA,NA,NA
+Mainland China,1/25/20 12:00,NA,NA,NA
+Mainland China,1/25/20 22:00,NA,NA,NA
+Mainland China,1/26/20 11:00,NA,NA,NA
+Mainland China,1/26/20 23:00,NA,NA,NA
+Mainland China,1/27/20 19:00,NA,NA,NA
+Mainland China,1/27/20 20:30,NA,NA,NA
+Mainland China,1/27/20 9:00,NA,NA,NA
+Mainland China,1/28/20 13:00,NA,NA,NA
+Mainland China,1/28/20 18:00,NA,NA,NA
+Mainland China,1/28/20 23:00,NA,NA,NA
+Mainland China,1/29/20 13:30,NA,NA,NA
+Mainland China,1/29/20 14:30,NA,NA,NA
+Mainland China,1/29/20 21:00,7678,NA,NA
+Mainland China,1/30/20 11:00,8124,NA,NA
+Mainland China,1/31/20 14:00,9783,NA,NA
+Mainland China,2/1/20 10:00,11860,NA,NA
+Mainland China,2/10/20 10:30,40196,908,3549
+Mainland China,2/10/20 19:30,42310,1011,3921
+Mainland China,2/11/20 10:50,42670,1016,4299
+Mainland China,2/11/20 20:44,44641,1113,4730
+Mainland China,2/12/20 10:20,44687,1115,5062
+Mainland China,2/12/20 22:00,59805,1366,5915
+Mainland China,2/13/20 10:00,59823,1367,6205
+Mainland China,2/13/20 21:15,63841,1488,6982
+Mainland China,2/14/20 11:23,63866,1381,7086
+Mainland China,2/2/20 21:00,17114,NA,NA
+Mainland China,2/3/20 21:00,20014,NA,612
+Mainland China,2/4/20 22:00,24290,NA,NA
+Mainland China,2/4/20 9:40,20400,NA,NA
+Mainland China,2/5/20 23:00,28017,NA,NA
+Mainland China,2/5/20 9:00,24391,NA,NA
+Mainland China,2/6/20 14:20,28088,NA,NA
+Mainland China,2/6/20 9:00,28085,NA,NA
+Mainland China,2/7/20 20:13,31215,NA,NA
+Mainland China,2/7/20 22:50,34569,NA,NA
+Mainland China,2/8/20 10:24,34620,723,2373
+Mainland China,2/8/20 23:04,37198,811,2678
+Mainland China,2/9/20 10:30,37232,812,2898
+Mainland China,2/9/20 23:20,40160,908,3286
+Malaysia,1/21/20 22:00,NA,NA,NA
+Malaysia,1/22/20 12:00,NA,NA,NA
+Malaysia,1/23/20 12:00,NA,NA,NA
+Malaysia,1/24/20 0:00,NA,NA,NA
+Malaysia,1/24/20 12:00,NA,NA,NA
+Malaysia,1/25/20 0:00,3,NA,NA
+Malaysia,1/25/20 12:00,3,NA,NA
+Malaysia,1/25/20 22:00,3,NA,NA
+Malaysia,1/26/20 11:00,4,NA,NA
+Malaysia,1/26/20 23:00,4,NA,NA
+Malaysia,1/27/20 19:00,4,NA,NA
+Malaysia,1/27/20 20:30,4,NA,NA
+Malaysia,1/27/20 9:00,4,NA,NA
+Malaysia,1/28/20 13:00,4,NA,NA
+Malaysia,1/28/20 18:00,4,NA,NA
+Malaysia,1/28/20 23:00,7,NA,NA
+Malaysia,1/29/20 13:30,7,NA,NA
+Malaysia,1/29/20 14:30,7,NA,NA
+Malaysia,1/29/20 21:00,7,NA,NA
+Malaysia,1/30/20 11:00,8,NA,NA
+Malaysia,1/31/20 14:00,8,NA,NA
+Malaysia,2/1/20 10:00,8,NA,NA
+Malaysia,2/10/20 10:30,18,0,1
+Malaysia,2/10/20 19:30,18,0,1
+Malaysia,2/11/20 10:50,18,0,3
+Malaysia,2/11/20 20:44,18,0,3
+Malaysia,2/12/20 10:20,18,0,3
+Malaysia,2/12/20 22:00,18,0,3
+Malaysia,2/13/20 10:00,19,0,3
+Malaysia,2/13/20 21:15,19,0,3
+Malaysia,2/14/20 11:23,19,0,3
+Malaysia,2/2/20 21:00,8,NA,NA
+Malaysia,2/3/20 21:00,8,NA,NA
+Malaysia,2/4/20 22:00,10,NA,NA
+Malaysia,2/4/20 9:40,8,NA,NA
+Malaysia,2/5/20 23:00,12,NA,NA
+Malaysia,2/5/20 9:00,10,NA,NA
+Malaysia,2/6/20 14:20,12,NA,NA
+Malaysia,2/6/20 9:00,12,NA,NA
+Malaysia,2/7/20 20:13,12,NA,1
+Malaysia,2/7/20 22:50,12,NA,1
+Malaysia,2/8/20 10:24,16,0,1
+Malaysia,2/8/20 23:04,16,0,1
+Malaysia,2/9/20 10:30,16,0,1
+Malaysia,2/9/20 23:20,18,0,1
+Nepal,1/21/20 22:00,NA,NA,NA
+Nepal,1/22/20 12:00,NA,NA,NA
+Nepal,1/23/20 12:00,NA,NA,NA
+Nepal,1/24/20 0:00,NA,NA,NA
+Nepal,1/24/20 12:00,NA,NA,NA
+Nepal,1/25/20 0:00,1,NA,NA
+Nepal,1/25/20 12:00,1,NA,NA
+Nepal,1/25/20 22:00,1,NA,NA
+Nepal,1/26/20 11:00,1,NA,NA
+Nepal,1/26/20 23:00,1,NA,NA
+Nepal,1/27/20 19:00,1,NA,NA
+Nepal,1/27/20 20:30,1,NA,NA
+Nepal,1/27/20 9:00,1,NA,NA
+Nepal,1/28/20 13:00,1,NA,NA
+Nepal,1/28/20 18:00,1,NA,NA
+Nepal,1/28/20 23:00,1,NA,NA
+Nepal,1/29/20 13:30,1,NA,NA
+Nepal,1/29/20 14:30,1,NA,NA
+Nepal,1/29/20 21:00,1,NA,NA
+Nepal,1/30/20 11:00,1,NA,NA
+Nepal,1/31/20 14:00,1,NA,NA
+Nepal,2/1/20 10:00,1,NA,NA
+Nepal,2/10/20 10:30,1,0,0
+Nepal,2/10/20 19:30,1,0,0
+Nepal,2/11/20 10:50,1,0,0
+Nepal,2/11/20 20:44,1,0,0
+Nepal,2/12/20 10:20,1,0,1
+Nepal,2/12/20 22:00,1,0,1
+Nepal,2/13/20 10:00,1,0,1
+Nepal,2/13/20 21:15,1,0,1
+Nepal,2/14/20 11:23,1,0,1
+Nepal,2/2/20 21:00,1,NA,NA
+Nepal,2/3/20 21:00,1,NA,NA
+Nepal,2/4/20 22:00,1,NA,NA
+Nepal,2/4/20 9:40,1,NA,NA
+Nepal,2/5/20 23:00,1,NA,NA
+Nepal,2/5/20 9:00,1,NA,NA
+Nepal,2/6/20 14:20,1,NA,NA
+Nepal,2/6/20 9:00,1,NA,NA
+Nepal,2/7/20 20:13,1,NA,NA
+Nepal,2/7/20 22:50,1,NA,NA
+Nepal,2/8/20 10:24,1,0,0
+Nepal,2/8/20 23:04,1,0,0
+Nepal,2/9/20 10:30,1,0,0
+Nepal,2/9/20 23:20,1,0,0
+Others,1/21/20 22:00,NA,NA,NA
+Others,1/22/20 12:00,NA,NA,NA
+Others,1/23/20 12:00,NA,NA,NA
+Others,1/24/20 0:00,NA,NA,NA
+Others,1/24/20 12:00,NA,NA,NA
+Others,1/25/20 0:00,NA,NA,NA
+Others,1/25/20 12:00,NA,NA,NA
+Others,1/25/20 22:00,NA,NA,NA
+Others,1/26/20 11:00,NA,NA,NA
+Others,1/26/20 23:00,NA,NA,NA
+Others,1/27/20 19:00,NA,NA,NA
+Others,1/27/20 20:30,NA,NA,NA
+Others,1/27/20 9:00,NA,NA,NA
+Others,1/28/20 13:00,NA,NA,NA
+Others,1/28/20 18:00,NA,NA,NA
+Others,1/28/20 23:00,NA,NA,NA
+Others,1/29/20 13:30,NA,NA,NA
+Others,1/29/20 14:30,NA,NA,NA
+Others,1/29/20 21:00,NA,NA,NA
+Others,1/30/20 11:00,NA,NA,NA
+Others,1/31/20 14:00,NA,NA,NA
+Others,2/1/20 10:00,NA,NA,NA
+Others,2/10/20 10:30,64,0,0
+Others,2/10/20 19:30,135,0,0
+Others,2/11/20 10:50,135,0,0
+Others,2/11/20 20:44,135,0,0
+Others,2/12/20 10:20,175,0,0
+Others,2/12/20 22:00,175,0,0
+Others,2/13/20 10:00,175,0,0
+Others,2/13/20 21:15,218,0,0
+Others,2/14/20 11:23,218,0,0
+Others,2/2/20 21:00,NA,NA,NA
+Others,2/3/20 21:00,NA,NA,NA
+Others,2/4/20 22:00,NA,NA,NA
+Others,2/4/20 9:40,NA,NA,NA
+Others,2/5/20 23:00,NA,NA,NA
+Others,2/5/20 9:00,NA,NA,NA
+Others,2/6/20 14:20,NA,NA,NA
+Others,2/6/20 9:00,NA,NA,NA
+Others,2/7/20 20:13,61,NA,NA
+Others,2/7/20 22:50,61,NA,NA
+Others,2/8/20 10:24,61,0,0
+Others,2/8/20 23:04,61,0,0
+Others,2/9/20 10:30,64,0,0
+Others,2/9/20 23:20,64,0,0
+Philippines,1/21/20 22:00,NA,NA,NA
+Philippines,1/22/20 12:00,NA,NA,NA
+Philippines,1/23/20 12:00,NA,NA,NA
+Philippines,1/24/20 0:00,NA,NA,NA
+Philippines,1/24/20 12:00,NA,NA,NA
+Philippines,1/25/20 0:00,NA,NA,NA
+Philippines,1/25/20 12:00,NA,NA,NA
+Philippines,1/25/20 22:00,NA,NA,NA
+Philippines,1/26/20 11:00,NA,NA,NA
+Philippines,1/26/20 23:00,NA,NA,NA
+Philippines,1/27/20 19:00,NA,NA,NA
+Philippines,1/27/20 20:30,NA,NA,NA
+Philippines,1/27/20 9:00,NA,NA,NA
+Philippines,1/28/20 13:00,NA,NA,NA
+Philippines,1/28/20 18:00,NA,NA,NA
+Philippines,1/28/20 23:00,NA,NA,NA
+Philippines,1/29/20 13:30,NA,NA,NA
+Philippines,1/29/20 14:30,NA,NA,NA
+Philippines,1/29/20 21:00,NA,NA,NA
+Philippines,1/30/20 11:00,1,NA,NA
+Philippines,1/31/20 14:00,1,NA,NA
+Philippines,2/1/20 10:00,1,NA,NA
+Philippines,2/10/20 10:30,3,1,0
+Philippines,2/10/20 19:30,3,1,0
+Philippines,2/11/20 10:50,3,1,0
+Philippines,2/11/20 20:44,3,1,0
+Philippines,2/12/20 10:20,3,1,1
+Philippines,2/12/20 22:00,3,1,1
+Philippines,2/13/20 10:00,3,1,1
+Philippines,2/13/20 21:15,3,1,1
+Philippines,2/14/20 11:23,3,1,1
+Philippines,2/2/20 21:00,2,1,NA
+Philippines,2/3/20 21:00,2,1,NA
+Philippines,2/4/20 22:00,2,1,NA
+Philippines,2/4/20 9:40,2,1,NA
+Philippines,2/5/20 23:00,2,1,NA
+Philippines,2/5/20 9:00,2,1,NA
+Philippines,2/6/20 14:20,2,1,NA
+Philippines,2/6/20 9:00,2,1,NA
+Philippines,2/7/20 20:13,3,1,NA
+Philippines,2/7/20 22:50,3,1,NA
+Philippines,2/8/20 10:24,3,1,0
+Philippines,2/8/20 23:04,3,1,0
+Philippines,2/9/20 10:30,3,1,0
+Philippines,2/9/20 23:20,3,1,0
+Russia,1/21/20 22:00,NA,NA,NA
+Russia,1/22/20 12:00,NA,NA,NA
+Russia,1/23/20 12:00,NA,NA,NA
+Russia,1/24/20 0:00,NA,NA,NA
+Russia,1/24/20 12:00,NA,NA,NA
+Russia,1/25/20 0:00,NA,NA,NA
+Russia,1/25/20 12:00,NA,NA,NA
+Russia,1/25/20 22:00,NA,NA,NA
+Russia,1/26/20 11:00,NA,NA,NA
+Russia,1/26/20 23:00,NA,NA,NA
+Russia,1/27/20 19:00,NA,NA,NA
+Russia,1/27/20 20:30,NA,NA,NA
+Russia,1/27/20 9:00,NA,NA,NA
+Russia,1/28/20 13:00,NA,NA,NA
+Russia,1/28/20 18:00,NA,NA,NA
+Russia,1/28/20 23:00,NA,NA,NA
+Russia,1/29/20 13:30,NA,NA,NA
+Russia,1/29/20 14:30,NA,NA,NA
+Russia,1/29/20 21:00,NA,NA,NA
+Russia,1/30/20 11:00,NA,NA,NA
+Russia,1/31/20 14:00,2,NA,NA
+Russia,2/1/20 10:00,2,NA,NA
+Russia,2/10/20 10:30,2,0,0
+Russia,2/10/20 19:30,2,0,0
+Russia,2/11/20 10:50,2,0,0
+Russia,2/11/20 20:44,2,0,0
+Russia,2/12/20 10:20,2,0,2
+Russia,2/12/20 22:00,2,0,2
+Russia,2/13/20 10:00,2,0,2
+Russia,2/13/20 21:15,2,0,2
+Russia,2/14/20 11:23,2,0,2
+Russia,2/2/20 21:00,2,NA,NA
+Russia,2/3/20 21:00,2,NA,NA
+Russia,2/4/20 22:00,2,NA,NA
+Russia,2/4/20 9:40,2,NA,NA
+Russia,2/5/20 23:00,2,NA,NA
+Russia,2/5/20 9:00,2,NA,NA
+Russia,2/6/20 14:20,2,NA,NA
+Russia,2/6/20 9:00,2,NA,NA
+Russia,2/7/20 20:13,2,NA,NA
+Russia,2/7/20 22:50,2,NA,NA
+Russia,2/8/20 10:24,2,0,0
+Russia,2/8/20 23:04,2,0,0
+Russia,2/9/20 10:30,2,0,0
+Russia,2/9/20 23:20,2,0,0
+Singapore,1/21/20 22:00,NA,NA,NA
+Singapore,1/22/20 12:00,NA,NA,NA
+Singapore,1/23/20 12:00,1,NA,NA
+Singapore,1/24/20 0:00,1,NA,NA
+Singapore,1/24/20 12:00,3,NA,NA
+Singapore,1/25/20 0:00,3,NA,NA
+Singapore,1/25/20 12:00,3,NA,NA
+Singapore,1/25/20 22:00,3,NA,NA
+Singapore,1/26/20 11:00,4,NA,NA
+Singapore,1/26/20 23:00,4,NA,NA
+Singapore,1/27/20 19:00,5,NA,NA
+Singapore,1/27/20 20:30,5,NA,NA
+Singapore,1/27/20 9:00,4,NA,NA
+Singapore,1/28/20 13:00,7,NA,NA
+Singapore,1/28/20 18:00,7,NA,NA
+Singapore,1/28/20 23:00,7,NA,NA
+Singapore,1/29/20 13:30,7,NA,NA
+Singapore,1/29/20 14:30,7,NA,NA
+Singapore,1/29/20 21:00,10,NA,NA
+Singapore,1/30/20 11:00,10,NA,NA
+Singapore,1/31/20 14:00,13,NA,NA
+Singapore,2/1/20 10:00,18,NA,NA
+Singapore,2/10/20 10:30,43,0,2
+Singapore,2/10/20 19:30,45,0,2
+Singapore,2/11/20 10:50,45,0,7
+Singapore,2/11/20 20:44,47,0,9
+Singapore,2/12/20 10:20,47,0,9
+Singapore,2/12/20 22:00,50,0,15
+Singapore,2/13/20 10:00,58,0,15
+Singapore,2/13/20 21:15,58,0,15
+Singapore,2/14/20 11:23,67,0,17
+Singapore,2/2/20 21:00,18,NA,NA
+Singapore,2/3/20 21:00,18,NA,NA
+Singapore,2/4/20 22:00,24,NA,NA
+Singapore,2/4/20 9:40,18,NA,NA
+Singapore,2/5/20 23:00,28,NA,NA
+Singapore,2/5/20 9:00,24,NA,NA
+Singapore,2/6/20 14:20,28,NA,NA
+Singapore,2/6/20 9:00,28,NA,NA
+Singapore,2/7/20 20:13,30,NA,NA
+Singapore,2/7/20 22:50,30,NA,NA
+Singapore,2/8/20 10:24,33,0,2
+Singapore,2/8/20 23:04,40,0,2
+Singapore,2/9/20 10:30,40,0,2
+Singapore,2/9/20 23:20,43,0,2
+South Korea,1/21/20 22:00,NA,NA,NA
+South Korea,1/22/20 12:00,1,NA,NA
+South Korea,1/23/20 12:00,1,NA,NA
+South Korea,1/24/20 0:00,1,NA,NA
+South Korea,1/24/20 12:00,2,NA,NA
+South Korea,1/25/20 0:00,2,NA,NA
+South Korea,1/25/20 12:00,2,NA,NA
+South Korea,1/25/20 22:00,2,NA,NA
+South Korea,1/26/20 11:00,3,NA,NA
+South Korea,1/26/20 23:00,3,NA,NA
+South Korea,1/27/20 19:00,4,NA,NA
+South Korea,1/27/20 20:30,4,NA,NA
+South Korea,1/27/20 9:00,4,NA,NA
+South Korea,1/28/20 13:00,4,NA,NA
+South Korea,1/28/20 18:00,4,NA,NA
+South Korea,1/28/20 23:00,4,NA,NA
+South Korea,1/29/20 13:30,4,NA,NA
+South Korea,1/29/20 14:30,4,NA,NA
+South Korea,1/29/20 21:00,4,NA,NA
+South Korea,1/30/20 11:00,4,NA,NA
+South Korea,1/31/20 14:00,11,NA,NA
+South Korea,2/1/20 10:00,12,NA,NA
+South Korea,2/10/20 10:30,27,0,3
+South Korea,2/10/20 19:30,27,0,3
+South Korea,2/11/20 10:50,28,0,3
+South Korea,2/11/20 20:44,28,0,4
+South Korea,2/12/20 10:20,28,0,7
+South Korea,2/12/20 22:00,28,0,7
+South Korea,2/13/20 10:00,28,0,7
+South Korea,2/13/20 21:15,28,0,7
+South Korea,2/14/20 11:23,28,0,7
+South Korea,2/2/20 21:00,15,NA,NA
+South Korea,2/3/20 21:00,15,NA,NA
+South Korea,2/4/20 22:00,16,NA,NA
+South Korea,2/4/20 9:40,15,NA,NA
+South Korea,2/5/20 23:00,23,NA,NA
+South Korea,2/5/20 9:00,16,NA,NA
+South Korea,2/6/20 14:20,23,NA,NA
+South Korea,2/6/20 9:00,23,NA,NA
+South Korea,2/7/20 20:13,24,NA,1
+South Korea,2/7/20 22:50,36,NA,1
+South Korea,2/8/20 10:24,24,0,1
+South Korea,2/8/20 23:04,25,0,3
+South Korea,2/9/20 10:30,25,0,3
+South Korea,2/9/20 23:20,27,0,3
+Spain,1/21/20 22:00,NA,NA,NA
+Spain,1/22/20 12:00,NA,NA,NA
+Spain,1/23/20 12:00,NA,NA,NA
+Spain,1/24/20 0:00,NA,NA,NA
+Spain,1/24/20 12:00,NA,NA,NA
+Spain,1/25/20 0:00,NA,NA,NA
+Spain,1/25/20 12:00,NA,NA,NA
+Spain,1/25/20 22:00,NA,NA,NA
+Spain,1/26/20 11:00,NA,NA,NA
+Spain,1/26/20 23:00,NA,NA,NA
+Spain,1/27/20 19:00,NA,NA,NA
+Spain,1/27/20 20:30,NA,NA,NA
+Spain,1/27/20 9:00,NA,NA,NA
+Spain,1/28/20 13:00,NA,NA,NA
+Spain,1/28/20 18:00,NA,NA,NA
+Spain,1/28/20 23:00,NA,NA,NA
+Spain,1/29/20 13:30,NA,NA,NA
+Spain,1/29/20 14:30,NA,NA,NA
+Spain,1/29/20 21:00,NA,NA,NA
+Spain,1/30/20 11:00,NA,NA,NA
+Spain,1/31/20 14:00,NA,NA,NA
+Spain,2/1/20 10:00,1,NA,NA
+Spain,2/10/20 10:30,2,0,0
+Spain,2/10/20 19:30,2,0,0
+Spain,2/11/20 10:50,2,0,0
+Spain,2/11/20 20:44,2,0,0
+Spain,2/12/20 10:20,2,0,0
+Spain,2/12/20 22:00,2,0,0
+Spain,2/13/20 10:00,2,0,0
+Spain,2/13/20 21:15,2,0,0
+Spain,2/14/20 11:23,2,0,0
+Spain,2/2/20 21:00,1,NA,NA
+Spain,2/3/20 21:00,1,NA,NA
+Spain,2/4/20 22:00,1,NA,NA
+Spain,2/4/20 9:40,1,NA,NA
+Spain,2/5/20 23:00,1,NA,NA
+Spain,2/5/20 9:00,1,NA,NA
+Spain,2/6/20 14:20,1,NA,NA
+Spain,2/6/20 9:00,1,NA,NA
+Spain,2/7/20 20:13,1,NA,NA
+Spain,2/7/20 22:50,1,NA,NA
+Spain,2/8/20 10:24,1,0,0
+Spain,2/8/20 23:04,1,0,0
+Spain,2/9/20 10:30,1,0,0
+Spain,2/9/20 23:20,2,0,0
+Sri Lanka,1/21/20 22:00,NA,NA,NA
+Sri Lanka,1/22/20 12:00,NA,NA,NA
+Sri Lanka,1/23/20 12:00,NA,NA,NA
+Sri Lanka,1/24/20 0:00,NA,NA,NA
+Sri Lanka,1/24/20 12:00,NA,NA,NA
+Sri Lanka,1/25/20 0:00,NA,NA,NA
+Sri Lanka,1/25/20 12:00,NA,NA,NA
+Sri Lanka,1/25/20 22:00,NA,NA,NA
+Sri Lanka,1/26/20 11:00,NA,NA,NA
+Sri Lanka,1/26/20 23:00,NA,NA,NA
+Sri Lanka,1/27/20 19:00,1,NA,NA
+Sri Lanka,1/27/20 20:30,1,NA,NA
+Sri Lanka,1/27/20 9:00,NA,NA,NA
+Sri Lanka,1/28/20 13:00,1,NA,NA
+Sri Lanka,1/28/20 18:00,1,NA,NA
+Sri Lanka,1/28/20 23:00,1,NA,NA
+Sri Lanka,1/29/20 13:30,1,NA,NA
+Sri Lanka,1/29/20 14:30,1,NA,NA
+Sri Lanka,1/29/20 21:00,1,NA,NA
+Sri Lanka,1/30/20 11:00,1,NA,NA
+Sri Lanka,1/31/20 14:00,1,NA,NA
+Sri Lanka,2/1/20 10:00,1,NA,NA
+Sri Lanka,2/10/20 10:30,1,0,1
+Sri Lanka,2/10/20 19:30,1,0,1
+Sri Lanka,2/11/20 10:50,1,0,1
+Sri Lanka,2/11/20 20:44,1,0,1
+Sri Lanka,2/12/20 10:20,1,0,1
+Sri Lanka,2/12/20 22:00,1,0,1
+Sri Lanka,2/13/20 10:00,1,0,1
+Sri Lanka,2/13/20 21:15,1,0,1
+Sri Lanka,2/14/20 11:23,1,0,1
+Sri Lanka,2/2/20 21:00,1,NA,NA
+Sri Lanka,2/3/20 21:00,1,NA,NA
+Sri Lanka,2/4/20 22:00,1,NA,NA
+Sri Lanka,2/4/20 9:40,1,NA,NA
+Sri Lanka,2/5/20 23:00,1,NA,NA
+Sri Lanka,2/5/20 9:00,1,NA,NA
+Sri Lanka,2/6/20 14:20,1,NA,NA
+Sri Lanka,2/6/20 9:00,1,NA,NA
+Sri Lanka,2/7/20 20:13,1,NA,NA
+Sri Lanka,2/7/20 22:50,1,NA,1
+Sri Lanka,2/8/20 10:24,1,0,1
+Sri Lanka,2/8/20 23:04,1,0,1
+Sri Lanka,2/9/20 10:30,1,0,1
+Sri Lanka,2/9/20 23:20,1,0,1
+Sweden,1/21/20 22:00,NA,NA,NA
+Sweden,1/22/20 12:00,NA,NA,NA
+Sweden,1/23/20 12:00,NA,NA,NA
+Sweden,1/24/20 0:00,NA,NA,NA
+Sweden,1/24/20 12:00,NA,NA,NA
+Sweden,1/25/20 0:00,NA,NA,NA
+Sweden,1/25/20 12:00,NA,NA,NA
+Sweden,1/25/20 22:00,NA,NA,NA
+Sweden,1/26/20 11:00,NA,NA,NA
+Sweden,1/26/20 23:00,NA,NA,NA
+Sweden,1/27/20 19:00,NA,NA,NA
+Sweden,1/27/20 20:30,NA,NA,NA
+Sweden,1/27/20 9:00,NA,NA,NA
+Sweden,1/28/20 13:00,NA,NA,NA
+Sweden,1/28/20 18:00,NA,NA,NA
+Sweden,1/28/20 23:00,NA,NA,NA
+Sweden,1/29/20 13:30,NA,NA,NA
+Sweden,1/29/20 14:30,NA,NA,NA
+Sweden,1/29/20 21:00,NA,NA,NA
+Sweden,1/30/20 11:00,NA,NA,NA
+Sweden,1/31/20 14:00,1,NA,NA
+Sweden,2/1/20 10:00,1,NA,NA
+Sweden,2/10/20 10:30,1,0,0
+Sweden,2/10/20 19:30,1,0,0
+Sweden,2/11/20 10:50,1,0,0
+Sweden,2/11/20 20:44,1,0,0
+Sweden,2/12/20 10:20,1,0,0
+Sweden,2/12/20 22:00,1,0,0
+Sweden,2/13/20 10:00,1,0,0
+Sweden,2/13/20 21:15,1,0,0
+Sweden,2/14/20 11:23,1,0,0
+Sweden,2/2/20 21:00,1,NA,NA
+Sweden,2/3/20 21:00,1,NA,NA
+Sweden,2/4/20 22:00,1,NA,NA
+Sweden,2/4/20 9:40,1,NA,NA
+Sweden,2/5/20 23:00,1,NA,NA
+Sweden,2/5/20 9:00,1,NA,NA
+Sweden,2/6/20 14:20,1,NA,NA
+Sweden,2/6/20 9:00,1,NA,NA
+Sweden,2/7/20 20:13,1,NA,NA
+Sweden,2/7/20 22:50,1,NA,NA
+Sweden,2/8/20 10:24,1,0,0
+Sweden,2/8/20 23:04,1,0,0
+Sweden,2/9/20 10:30,1,0,0
+Sweden,2/9/20 23:20,1,0,0
+Taiwan,1/21/20 22:00,1,NA,NA
+Taiwan,1/22/20 12:00,1,NA,NA
+Taiwan,1/23/20 12:00,1,NA,NA
+Taiwan,1/24/20 0:00,1,NA,NA
+Taiwan,1/24/20 12:00,3,NA,NA
+Taiwan,1/25/20 0:00,3,NA,NA
+Taiwan,1/25/20 12:00,3,NA,NA
+Taiwan,1/25/20 22:00,3,NA,NA
+Taiwan,1/26/20 11:00,4,NA,NA
+Taiwan,1/26/20 23:00,4,NA,NA
+Taiwan,1/27/20 19:00,5,NA,NA
+Taiwan,1/27/20 20:30,5,NA,NA
+Taiwan,1/27/20 9:00,5,NA,NA
+Taiwan,1/28/20 13:00,8,NA,NA
+Taiwan,1/28/20 18:00,8,NA,NA
+Taiwan,1/28/20 23:00,8,NA,NA
+Taiwan,1/29/20 13:30,8,NA,NA
+Taiwan,1/29/20 14:30,8,NA,NA
+Taiwan,1/29/20 21:00,8,NA,NA
+Taiwan,1/30/20 11:00,9,NA,NA
+Taiwan,1/31/20 14:00,10,NA,NA
+Taiwan,2/1/20 10:00,10,NA,NA
+Taiwan,2/10/20 10:30,18,0,1
+Taiwan,2/10/20 19:30,18,0,1
+Taiwan,2/11/20 10:50,18,0,1
+Taiwan,2/11/20 20:44,18,0,1
+Taiwan,2/12/20 10:20,18,0,1
+Taiwan,2/12/20 22:00,18,0,1
+Taiwan,2/13/20 10:00,18,0,1
+Taiwan,2/13/20 21:15,18,0,1
+Taiwan,2/14/20 11:23,18,0,2
+Taiwan,2/2/20 21:00,10,NA,NA
+Taiwan,2/3/20 21:00,10,NA,NA
+Taiwan,2/4/20 22:00,11,NA,NA
+Taiwan,2/4/20 9:40,10,NA,NA
+Taiwan,2/5/20 23:00,11,NA,NA
+Taiwan,2/5/20 9:00,11,NA,NA
+Taiwan,2/6/20 14:20,16,NA,1
+Taiwan,2/6/20 9:00,13,NA,NA
+Taiwan,2/7/20 20:13,16,NA,1
+Taiwan,2/7/20 22:50,16,NA,1
+Taiwan,2/8/20 10:24,17,0,1
+Taiwan,2/8/20 23:04,17,0,1
+Taiwan,2/9/20 10:30,18,0,1
+Taiwan,2/9/20 23:20,18,0,1
+Thailand,1/21/20 22:00,2,NA,NA
+Thailand,1/22/20 12:00,2,NA,NA
+Thailand,1/23/20 12:00,3,NA,NA
+Thailand,1/24/20 0:00,4,NA,NA
+Thailand,1/24/20 12:00,5,NA,NA
+Thailand,1/25/20 0:00,5,NA,NA
+Thailand,1/25/20 12:00,7,NA,NA
+Thailand,1/25/20 22:00,7,NA,NA
+Thailand,1/26/20 11:00,8,NA,2
+Thailand,1/26/20 23:00,8,NA,2
+Thailand,1/27/20 19:00,8,NA,2
+Thailand,1/27/20 20:30,8,NA,2
+Thailand,1/27/20 9:00,8,NA,2
+Thailand,1/28/20 13:00,14,NA,5
+Thailand,1/28/20 18:00,14,NA,5
+Thailand,1/28/20 23:00,14,NA,5
+Thailand,1/29/20 13:30,14,NA,5
+Thailand,1/29/20 14:30,14,NA,5
+Thailand,1/29/20 21:00,14,NA,5
+Thailand,1/30/20 11:00,14,NA,5
+Thailand,1/31/20 14:00,19,NA,5
+Thailand,2/1/20 10:00,19,NA,5
+Thailand,2/10/20 10:30,32,0,10
+Thailand,2/10/20 19:30,32,0,10
+Thailand,2/11/20 10:50,32,0,10
+Thailand,2/11/20 20:44,33,0,10
+Thailand,2/12/20 10:20,33,0,10
+Thailand,2/12/20 22:00,33,0,10
+Thailand,2/13/20 10:00,33,0,10
+Thailand,2/13/20 21:15,33,0,12
+Thailand,2/14/20 11:23,33,0,12
+Thailand,2/2/20 21:00,19,NA,5
+Thailand,2/3/20 21:00,19,NA,5
+Thailand,2/4/20 22:00,25,NA,5
+Thailand,2/4/20 9:40,19,NA,5
+Thailand,2/5/20 23:00,25,NA,5
+Thailand,2/5/20 9:00,25,NA,5
+Thailand,2/6/20 14:20,25,NA,5
+Thailand,2/6/20 9:00,25,NA,5
+Thailand,2/7/20 20:13,25,NA,5
+Thailand,2/7/20 22:50,25,NA,5
+Thailand,2/8/20 10:24,32,0,10
+Thailand,2/8/20 23:04,32,0,10
+Thailand,2/9/20 10:30,32,0,10
+Thailand,2/9/20 23:20,32,0,10
+UK,1/21/20 22:00,NA,NA,NA
+UK,1/22/20 12:00,NA,NA,NA
+UK,1/23/20 12:00,NA,NA,NA
+UK,1/24/20 0:00,NA,NA,NA
+UK,1/24/20 12:00,NA,NA,NA
+UK,1/25/20 0:00,NA,NA,NA
+UK,1/25/20 12:00,NA,NA,NA
+UK,1/25/20 22:00,NA,NA,NA
+UK,1/26/20 11:00,NA,NA,NA
+UK,1/26/20 23:00,NA,NA,NA
+UK,1/27/20 19:00,NA,NA,NA
+UK,1/27/20 20:30,NA,NA,NA
+UK,1/27/20 9:00,NA,NA,NA
+UK,1/28/20 13:00,NA,NA,NA
+UK,1/28/20 18:00,NA,NA,NA
+UK,1/28/20 23:00,NA,NA,NA
+UK,1/29/20 13:30,NA,NA,NA
+UK,1/29/20 14:30,NA,NA,NA
+UK,1/29/20 21:00,NA,NA,NA
+UK,1/30/20 11:00,NA,NA,NA
+UK,1/31/20 14:00,2,NA,NA
+UK,2/1/20 10:00,2,NA,NA
+UK,2/10/20 10:30,3,0,0
+UK,2/10/20 19:30,8,0,0
+UK,2/11/20 10:50,8,0,0
+UK,2/11/20 20:44,8,0,0
+UK,2/12/20 10:20,8,0,0
+UK,2/12/20 22:00,9,0,1
+UK,2/13/20 10:00,9,0,1
+UK,2/13/20 21:15,9,0,1
+UK,2/14/20 11:23,9,0,1
+UK,2/2/20 21:00,2,NA,NA
+UK,2/3/20 21:00,2,NA,NA
+UK,2/4/20 22:00,2,NA,NA
+UK,2/4/20 9:40,2,NA,NA
+UK,2/5/20 23:00,2,NA,NA
+UK,2/5/20 9:00,2,NA,NA
+UK,2/6/20 14:20,2,NA,NA
+UK,2/6/20 9:00,2,NA,NA
+UK,2/7/20 20:13,3,NA,NA
+UK,2/7/20 22:50,3,NA,NA
+UK,2/8/20 10:24,3,0,0
+UK,2/8/20 23:04,3,0,0
+UK,2/9/20 10:30,3,0,0
+UK,2/9/20 23:20,3,0,0
+United Arab Emirates,1/21/20 22:00,NA,NA,NA
+United Arab Emirates,1/22/20 12:00,NA,NA,NA
+United Arab Emirates,1/23/20 12:00,NA,NA,NA
+United Arab Emirates,1/24/20 0:00,NA,NA,NA
+United Arab Emirates,1/24/20 12:00,NA,NA,NA
+United Arab Emirates,1/25/20 0:00,NA,NA,NA
+United Arab Emirates,1/25/20 12:00,NA,NA,NA
+United Arab Emirates,1/25/20 22:00,NA,NA,NA
+United Arab Emirates,1/26/20 11:00,NA,NA,NA
+United Arab Emirates,1/26/20 23:00,NA,NA,NA
+United Arab Emirates,1/27/20 19:00,NA,NA,NA
+United Arab Emirates,1/27/20 20:30,NA,NA,NA
+United Arab Emirates,1/27/20 9:00,NA,NA,NA
+United Arab Emirates,1/28/20 13:00,NA,NA,NA
+United Arab Emirates,1/28/20 18:00,NA,NA,NA
+United Arab Emirates,1/28/20 23:00,NA,NA,NA
+United Arab Emirates,1/29/20 13:30,4,NA,NA
+United Arab Emirates,1/29/20 14:30,4,NA,NA
+United Arab Emirates,1/29/20 21:00,4,NA,NA
+United Arab Emirates,1/30/20 11:00,4,NA,NA
+United Arab Emirates,1/31/20 14:00,4,NA,NA
+United Arab Emirates,2/1/20 10:00,4,NA,NA
+United Arab Emirates,2/10/20 10:30,7,0,0
+United Arab Emirates,2/10/20 19:30,8,0,0
+United Arab Emirates,2/11/20 10:50,8,0,0
+United Arab Emirates,2/11/20 20:44,8,0,1
+United Arab Emirates,2/12/20 10:20,8,0,1
+United Arab Emirates,2/12/20 22:00,8,0,1
+United Arab Emirates,2/13/20 10:00,8,0,1
+United Arab Emirates,2/13/20 21:15,8,0,1
+United Arab Emirates,2/14/20 11:23,8,0,1
+United Arab Emirates,2/2/20 21:00,5,NA,NA
+United Arab Emirates,2/3/20 21:00,5,NA,NA
+United Arab Emirates,2/4/20 22:00,5,NA,NA
+United Arab Emirates,2/4/20 9:40,5,NA,NA
+United Arab Emirates,2/5/20 23:00,5,NA,NA
+United Arab Emirates,2/5/20 9:00,5,NA,NA
+United Arab Emirates,2/6/20 14:20,5,NA,NA
+United Arab Emirates,2/6/20 9:00,5,NA,NA
+United Arab Emirates,2/7/20 20:13,5,NA,NA
+United Arab Emirates,2/7/20 22:50,5,NA,NA
+United Arab Emirates,2/8/20 10:24,7,0,0
+United Arab Emirates,2/8/20 23:04,7,0,0
+United Arab Emirates,2/9/20 10:30,7,0,0
+United Arab Emirates,2/9/20 23:20,7,0,0
+US,1/21/20 22:00,NA,NA,NA
+US,1/22/20 12:00,NA,NA,NA
+US,1/23/20 12:00,NA,NA,NA
+US,1/24/20 0:00,NA,NA,NA
+US,1/24/20 12:00,NA,NA,NA
+US,1/25/20 0:00,NA,NA,NA
+US,1/25/20 12:00,NA,NA,NA
+US,1/25/20 22:00,NA,NA,NA
+US,1/26/20 11:00,NA,NA,NA
+US,1/26/20 23:00,NA,NA,NA
+US,1/27/20 19:00,NA,NA,NA
+US,1/27/20 20:30,NA,NA,NA
+US,1/27/20 9:00,NA,NA,NA
+US,1/28/20 13:00,NA,NA,NA
+US,1/28/20 18:00,NA,NA,NA
+US,1/28/20 23:00,NA,NA,NA
+US,1/29/20 13:30,NA,NA,NA
+US,1/29/20 14:30,NA,NA,NA
+US,1/29/20 21:00,NA,NA,NA
+US,1/30/20 11:00,NA,NA,NA
+US,1/31/20 14:00,NA,NA,NA
+US,2/1/20 10:00,NA,NA,NA
+US,2/10/20 10:30,NA,NA,NA
+US,2/10/20 19:30,NA,NA,NA
+US,2/11/20 10:50,NA,NA,NA
+US,2/11/20 20:44,NA,NA,NA
+US,2/12/20 10:20,NA,NA,NA
+US,2/12/20 22:00,NA,NA,NA
+US,2/13/20 10:00,NA,NA,NA
+US,2/13/20 21:15,15,0,3
+US,2/14/20 11:23,15,0,3
+US,2/2/20 21:00,NA,NA,NA
+US,2/3/20 21:00,NA,NA,NA
+US,2/4/20 22:00,NA,NA,NA
+US,2/4/20 9:40,NA,NA,NA
+US,2/5/20 23:00,NA,NA,NA
+US,2/5/20 9:00,NA,NA,NA
+US,2/6/20 14:20,NA,NA,NA
+US,2/6/20 9:00,NA,NA,NA
+US,2/7/20 20:13,NA,NA,NA
+US,2/7/20 22:50,NA,NA,NA
+US,2/8/20 10:24,NA,NA,NA
+US,2/8/20 23:04,NA,NA,NA
+US,2/9/20 10:30,NA,NA,NA
+US,2/9/20 23:20,NA,NA,NA
+Vietnam,1/21/20 22:00,NA,NA,NA
+Vietnam,1/22/20 12:00,NA,NA,NA
+Vietnam,1/23/20 12:00,2,NA,NA
+Vietnam,1/24/20 0:00,2,NA,NA
+Vietnam,1/24/20 12:00,2,NA,NA
+Vietnam,1/25/20 0:00,2,NA,NA
+Vietnam,1/25/20 12:00,2,NA,NA
+Vietnam,1/25/20 22:00,2,NA,NA
+Vietnam,1/26/20 11:00,2,NA,NA
+Vietnam,1/26/20 23:00,2,NA,NA
+Vietnam,1/27/20 19:00,2,NA,NA
+Vietnam,1/27/20 20:30,2,NA,NA
+Vietnam,1/27/20 9:00,2,NA,NA
+Vietnam,1/28/20 13:00,2,NA,NA
+Vietnam,1/28/20 18:00,2,NA,NA
+Vietnam,1/28/20 23:00,2,NA,NA
+Vietnam,1/29/20 13:30,2,NA,NA
+Vietnam,1/29/20 14:30,2,NA,NA
+Vietnam,1/29/20 21:00,2,NA,NA
+Vietnam,1/30/20 11:00,2,NA,NA
+Vietnam,1/31/20 14:00,2,NA,NA
+Vietnam,2/1/20 10:00,6,NA,1
+Vietnam,2/10/20 10:30,14,0,1
+Vietnam,2/10/20 19:30,14,0,1
+Vietnam,2/11/20 10:50,15,0,1
+Vietnam,2/11/20 20:44,15,0,6
+Vietnam,2/12/20 10:20,15,0,6
+Vietnam,2/12/20 22:00,15,0,6
+Vietnam,2/13/20 10:00,16,0,7
+Vietnam,2/13/20 21:15,16,0,7
+Vietnam,2/14/20 11:23,16,0,7
+Vietnam,2/2/20 21:00,6,NA,1
+Vietnam,2/3/20 21:00,8,NA,1
+Vietnam,2/4/20 22:00,8,NA,1
+Vietnam,2/4/20 9:40,8,NA,1
+Vietnam,2/5/20 23:00,10,NA,1
+Vietnam,2/5/20 9:00,8,NA,1
+Vietnam,2/6/20 14:20,10,NA,1
+Vietnam,2/6/20 9:00,10,NA,1
+Vietnam,2/7/20 20:13,10,NA,1
+Vietnam,2/7/20 22:50,10,NA,1
+Vietnam,2/8/20 10:24,13,0,1
+Vietnam,2/8/20 23:04,13,0,1
+Vietnam,2/9/20 10:30,13,0,1
+Vietnam,2/9/20 23:20,14,0,1

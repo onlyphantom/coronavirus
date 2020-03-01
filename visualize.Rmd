@@ -64,4 +64,17 @@ ggplot(data=subset(dat, countryCode == sel_rows), aes(x=date, y=value, col=varia
   theme_linedraw()
 ```
 
+```{r}
+str(dat)
+```
+
+```{r}
+sel_rows = "SG"
+sel_cols = c("confirmed", "dispatched", "dead")
+
+ggplot(data=subset(dat, countryCode == sel_rows), aes(x=date, y=value, col=variable)) +
+  geom_smooth(method="loess") +
+  labs(title="My title")
+```
+
 
