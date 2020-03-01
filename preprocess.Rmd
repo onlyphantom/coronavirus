@@ -12,7 +12,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ## Step-by-step pre-processing
 ```{r}
-corona <- read.csv("shiny_01/corona.csv")
+corona <- read.csv("data_input/corona.csv")
 corona$date <- as.Date(corona$date)
 str(corona)
 ```

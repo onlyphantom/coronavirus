@@ -1,0 +1,67 @@
+---
+title: "visualize"
+author: "Samuel Chan"
+date: "2/28/2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Step-by-step pre-processing
+```{r}
+corona <- read.csv("data_input/corona.csv")
+corona$date <- as.Date(corona$date)
+str(corona)
+```
+
+Renamed "dispatched" to "dispatched"
+```{r}
+colnames(corona)[8] <- "dispatched" 
+```
+
+```{r}
+vs <- corona[,c("confirmed", "suspected", "dispatched", "dead")]
+dat <- aggregate(vs, by=corona[,c("date", "countryCode")], FUN=sum)
+str(dat)
+```
+
+
+To cast the dataset from wide to long, we can use `reshape` or an external library (`reshape2`).
+
+In base R:
+```{r}
+a <- reshape(data=dat, 
+        idvar=c("date", "countryCode"), 
+        varying=c("confirmed", "suspected", "dispatched", "dead"), 
+        times=c("confirmed", "suspected", "dispatched", "dead"),
+        v.name="value",
+        direction="long")
+
+row.names(a) <- NULL
+colnames(a)[3] <- "variable"
+head(a)
+```
+
+Using the external library:
+```{r}
+library(reshape2)
+dat <- reshape2::melt(data=dat, 
+               id.vars=c("date", "countryCode"),
+               measured.vars=c("confirmed", "suspected", "dispatched", "dead"))
+str(dat)
+```
+
+
+```{r}
+suppressPackageStartupMessages(library(ggplot2))
+sel_rows = "SG"
+sel_cols = c("confirmed", "dispatched", "dead")
+
+ggplot(data=subset(dat, countryCode == sel_rows), aes(x=date, y=value, col=variable)) +
+  geom_line() +
+  theme_linedraw()
+```
+
+

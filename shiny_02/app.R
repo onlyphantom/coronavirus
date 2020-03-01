@@ -1,7 +1,8 @@
-# shiny_01
+# shiny_02
 #
 
 library(shiny)
+library(ggplot2)
 
 ui <- fluidPage(
   title = "COVID-19",
@@ -10,7 +11,7 @@ ui <- fluidPage(
     sidebarPanel(
       selectInput("countrySelector",
                   label="Select a Country",
-                  choices=c("Singapore", "Japan", "Korea", "United Kingdom", "Malaysia"),
+                  choices=c("Singapore", "Japan", "Korea", "United Kingdom", "Malaysia", "China"),
                   selected="Singapore")
     ),
     mainPanel(
@@ -21,8 +22,10 @@ ui <- fluidPage(
 
 server <- function(input, output){
   
-  dat <- read.csv("../data_input/corona.csv", stringsAsFactors = FALSE)
-  dat$date <- as.Date(dat$date)
+  corona <- read.csv("../data_input/corona.csv")
+  corona$date <- as.Date(corona$date)
+  vs <- corona[,c("confirmed", "suspected", "cured", "dead")]
+  dat <- aggregate(vs, by=corona[,c("date", "countryCode")], FUN=sum)
 
   output$sgCasevsCured <- renderPlot({
     country <- switch(input$countrySelector,
@@ -30,7 +33,8 @@ server <- function(input, output){
                       "Japan" = "JP",
                       "Korea" = "KR",
                       "United Kingdom" = "GB",
-                      "Malaysia" = "MY"
+                      "Malaysia" = "MY",
+                      "China" = "CN"
     )
     sg <- dat[dat$countryCode == country, ]
     plot(sg[,c("date", "confirmed")], type="s")
