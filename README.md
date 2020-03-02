@@ -6,7 +6,7 @@ The lecture is divided into 4 parts and its intended audience are absolute begin
 ## Preview
 A preview of the app we're building:
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/BO3Ce_jZBts" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+[![App Preview](assets/apppreview.png)](https://youtu.be/BO3Ce_jZBts)
 
 
 To keep the focus on the mechanics of Shiny, all of the data provided in this repo has been cleaned. Rather than spending 2 hours cleaning and reshaping data, you can invest that 2 hours into learning the features of Shiny.
