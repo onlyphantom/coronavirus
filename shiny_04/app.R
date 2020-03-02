@@ -5,12 +5,17 @@ library(shiny)
 library(ggplot2)
 library(reshape2)
 library(shinythemes)
+library(plotly)
 
 source("preprocess.R")
 source("darker.R")
 
 ui <- fluidPage(
   theme = shinytheme("darkly"),
+  tags$style(HTML('table.dataTable tr:nth-child(even) {color: black !important;}')),
+  tags$style(HTML('table.dataTable tr:nth-child(odd) {background-color: black !important;}')),
+  tags$style(HTML('table.dataTable th {color: black !important;}')),
+  tags$style(HTML('table.dataTable th {background-color: white !important;}')),
   title = "COVID-19",
   titlePanel(
     h3("Overall Country-level Statistics")
@@ -20,7 +25,7 @@ ui <- fluidPage(
       tabsetPanel(
         tabPanel(
           "County-wide Statistics",
-          plotOutput("sgCasevsCured"),
+          plotlyOutput("sgCasevsCured"),
           hr(),
           div(
             h3("Dataset Source"),
@@ -43,6 +48,8 @@ ui <- fluidPage(
     ), # end mainPanel
 
     sidebarPanel(
+      helpText("Use the widget below to reactively
+               generate the plot elements."),
       selectInput("countrySelector",
                   label="Select a Country",
                   choices=c("Singapore", "Japan", "Korea", "United Kingdom", "Malaysia", "China"),
@@ -81,20 +88,22 @@ server <- function(input, output){
                       "China" = "CN"
     )
     
-    geoms <- switch(as.character(input$smoothSelector), "TRUE"=geom_smooth(), "FALSE"=geom_line())
+    geoms <- switch(as.character(input$smoothSelector), "TRUE"=geom_smooth(size=1.5), "FALSE"=geom_line(size=1.5))
     dat <- subset(long, 
                   (countryCode == country 
                    & date >= input$dateSelector[1]
                    & date < input$dateSelector[2]
                   ))
-    ggplot(data=dat, 
-           aes(x=date, y=value, col=variable)) +
-      geoms +
-      labs(title = input$titleInput) +
-      grim
+    ggplotly(
+      ggplot(data=dat, 
+             aes(x=date, y=value, col=variable)) +
+        geoms +
+        labs(title = input$titleInput) +
+        grim
+    )
   })
   
-  output$sgCasevsCured <- renderPlot({
+  output$sgCasevsCured <- renderPlotly({
     ggp()
   })
   
