@@ -19,14 +19,41 @@ recovered_w <- read.csv("https://raw.githubusercontent.com/CSSEGISandData/COVID-
 ```
 
 ```{r}
-library(tidyverse)
-read.csv("https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/time_series_19-covid-Confirmed.csv") %>% 
-  select(-Province.State, -Lat, -Long) %>% 
-  gather(key="Date", value="Confirmed", -Country.Region) %>% 
-  group_by(Country.Region, Date) %>% 
-  summarise("Confirmed"=sum(Confirmed)) %>% 
-  ungroup() %>% 
-  select(Date, Country.Region, Confirmed) %>% 
-  tail()
+library(dplyr)
+cleanSingle <- function(x){
+  x %>%
+    select(-Province.State, -Lat, -Long) %>% 
+    gather(key="date", value="Value", -Country.Region) %>% 
+    group_by(Country.Region, date) %>% 
+    summarise("Value"=sum(Value)) %>% 
+    ungroup() %>% 
+    select(date, "country"=Country.Region, Value) %>% 
+    mutate(date, date=as.Date(substring(date, 2, nchar(date)),"%m.%d.%y"))
+}
+```
+
+```{r}
+res <- list(confirmed_w, deaths_w, recovered_w) %>% 
+  lapply(cleanSingle) %>% 
+  reduce(left_join,by = c("date", "country"))
+
+colnames(res)[3:5] <- c("confirmed", "deaths", "recovered")
+```
+
+```{r}
+tail(res)
+```
+
+```{r}
+reslong <- res %>% reshape2::melt(
+               id.vars=c("date", "country"),
+               measured.vars=c("confirmed", "recovered", "dead"))
+tail(reslong)
+```
+
+
+```{r}
+ggplot(data=subset(reslong, country == "Singapore"), aes(x=date, y=value, col=variable)) +
+  geom_smooth(method="loess")
 ```
 

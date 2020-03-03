@@ -12,7 +12,7 @@ ui <- fluidPage(
       sliderInput("plotSlider", label="Number of Cases", 10, 100, 70, step = 10),
       selectInput("input1",
                   label="Select a Country",
-                  choices=c("Singapore", "Japan", "Korea", "United Kingdom", "Malaysia"),
+                  choices=c("Singapore", "Japan", "Korea", "United Kingdom", "Malaysia", "China"),
                   selected="Singapore"),
       helpText("Modify the values in the widget to reactively configure the plot.")
     ),
@@ -34,7 +34,8 @@ server <- function(input, output){
                       "Japan" = "JP",
                       "Korea" = "KR",
                       "United Kingdom" = "GB",
-                      "Malaysia" = "MY"
+                      "Malaysia" = "MY",
+                      "China" = "CN"
     )
     x <- dat[dat$countryCode == country, ]
     plot(x$date, x$confirmed, type="l", main=input$plotTitle)
