@@ -18,6 +18,7 @@ ui <- fluidPage(
   tags$style(HTML('table.dataTable th {background-color: white !important;}')),
   title = "COVID-19",
   titlePanel(
+    img(src="coronalogo.png", width="20%", style="margin:3%"), 
     h3("Overall Country-level Statistics")
   ),
   sidebarLayout(
