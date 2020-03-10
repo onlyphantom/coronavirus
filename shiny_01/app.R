@@ -8,13 +8,17 @@ ui <- fluidPage(
   titlePanel("Containing Epidemics: 2019-nCoV"),
   sidebarLayout(
     sidebarPanel(
-      selectInput("countrySelector",
+      textInput("plotTitle", label="Title of Visual:"),
+      sliderInput("plotSlider", label="Number of Cases", 10, 100, 70, step = 10),
+      selectInput("input1",
                   label="Select a Country",
-                  choices=c("Singapore", "Japan", "Korea", "United Kingdom", "Malaysia"),
-                  selected="Singapore")
+                  choices=c("Singapore", "Japan", "Korea", "United Kingdom", "Malaysia", "China"),
+                  selected="Singapore"),
+      helpText("Modify the values in the widget to reactively configure the plot.")
     ),
     mainPanel(
-      plotOutput("sgCasevsCured")
+      plotOutput("plot1"),
+      tableOutput("table1")
     )
   )
 )
@@ -24,19 +28,25 @@ server <- function(input, output){
   dat <- read.csv("../data_input/corona.csv", stringsAsFactors = FALSE)
   dat$date <- as.Date(dat$date)
 
-  output$sgCasevsCured <- renderPlot({
-    country <- switch(input$countrySelector,
+  output$plot1 <- renderPlot({
+    country <- switch(input$input1,
                       "Singapore" = "SG",
                       "Japan" = "JP",
                       "Korea" = "KR",
                       "United Kingdom" = "GB",
-                      "Malaysia" = "MY"
+                      "Malaysia" = "MY",
+                      "China" = "CN"
     )
-    sg <- dat[dat$countryCode == country, ]
-    plot(sg[,c("date", "confirmed")], type="s")
-    lines(sg[,c("date", "cured")], col="blue")
+    x <- dat[dat$countryCode == country, ]
+    plot(x$date, x$confirmed, type="l", main=input$plotTitle)
+    lines(x[,c("date", "cured")], col="blue")
   })
   
-}
+  output$table1 <- renderTable({
+    # output only the important columns
+    dat[1:100, ]
+  }) # ends renderTable
+  
+} # ends Server
 
 shinyApp(ui, server)

@@ -1,12 +1,12 @@
-# shiny_04
+# shiny_05
 #
 
 library(shiny)
 library(ggplot2)
-library(reshape2)
 library(shinythemes)
 library(plotly)
 
+source("reader.r")
 source("preprocess.R")
 source("darker.R")
 
@@ -18,6 +18,7 @@ ui <- fluidPage(
   tags$style(HTML('table.dataTable th {background-color: white !important;}')),
   title = "COVID-19",
   titlePanel(
+    img(src="coronalogo.png", width="20%", style="margin:3%"), 
     h3("Overall Country-level Statistics")
   ),
   sidebarLayout(
@@ -25,7 +26,7 @@ ui <- fluidPage(
       tabsetPanel(
         tabPanel(
           "County-wide Statistics",
-          plotlyOutput("sgCasevsCured"),
+          plotlyOutput("allCountries"),
           hr(),
           div(
             h3("Dataset Source"),
@@ -41,7 +42,7 @@ ui <- fluidPage(
             "or connect with me on your favorite social network.", style="font-weight:lighter")
           ), # end tabPanel-1
         tabPanel("Tabular Data",
-                 dataTableOutput("tabular")
+                 DT::DTOutput("tabular")
                  )
         
       ) # end tabsetPanel
@@ -52,7 +53,7 @@ ui <- fluidPage(
                generate the plot elements."),
       selectInput("countrySelector",
                   label="Select a Country",
-                  choices=c("Singapore", "Japan", "Korea", "United Kingdom", "Malaysia", "China"),
+                  choices=c("Singapore", "Japan", "South Korea", "UK", "Malaysia", "Mainland China"),
                   selected="Singapore"),
       dateRangeInput("dateSelector",
                      label = "Observation Period",
@@ -72,30 +73,27 @@ ui <- fluidPage(
   )
 )
 
-corona <- read.csv("corona.csv")
-corona$date <- as.Date(corona$date)
+corona <- read_github()
 long <- tolong(corona)
 
 server <- function(input, output){
- 
-  ggp <- reactive({
-    country <- switch(input$countrySelector,
-                      "Singapore" = "SG",
-                      "Japan" = "JP",
-                      "Korea" = "KR",
-                      "United Kingdom" = "GB",
-                      "Malaysia" = "MY",
-                      "China" = "CN"
-    )
+  
+  dat <- reactive({
+    x <- subset(long, 
+           (country == input$countrySelector
+            & date >= input$dateSelector[1]
+            & date < input$dateSelector[2]
+            ))
+    return(x)
+  })
     
-    geoms <- switch(as.character(input$smoothSelector), "TRUE"=geom_smooth(size=1.5), "FALSE"=geom_line(size=1.5))
-    dat <- subset(long, 
-                  (countryCode == country 
-                   & date >= input$dateSelector[1]
-                   & date < input$dateSelector[2]
-                  ))
+
+  output$allCountries <- renderPlotly({
+    geoms <- switch(as.character(input$smoothSelector), 
+                    "TRUE"=geom_smooth(size=1.2), 
+                    "FALSE"=geom_line(size=1.2))
     ggplotly(
-      ggplot(data=dat, 
+      ggplot(data=dat(), 
              aes(x=date, y=value, col=variable)) +
         geoms +
         labs(title = input$titleInput) +
@@ -103,36 +101,18 @@ server <- function(input, output){
     )
   })
   
-  output$sgCasevsCured <- renderPlotly({
-    ggp()
-  })
-  
   output$saveAction <- downloadHandler(
     filename = 'plotFromApp.png',
     content = function(file) {
-      ggsave(file, ggp())
+      ggsave(file, dat())
     }
   )
+
   
-  countryReact <- reactive({
-    country <- switch(input$countrySelector,
-                      "Singapore" = "SG",
-                      "Japan" = "JP",
-                      "Korea" = "KR",
-                      "United Kingdom" = "GB",
-                      "Malaysia" = "MY",
-                      "China" = "CN"
-    )
-    corona[corona$countryCode == country & 
-             corona$date >= input$dateSelector[1] &
-             corona$date < input$dateSelector[2]
-             , 
-           c("date", "country", "confirmed", "cured", "dead")]
+  output$tabular <- DT::renderDT({
+    x <- corona[corona$country == input$countrySelector,]
+    return(x)
   })
-  
-  output$tabular <- DT::renderDataTable(
-    countryReact()
-  )
   
 }
 
