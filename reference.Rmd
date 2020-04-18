@@ -10,7 +10,19 @@ knitr::opts_chunk$set(echo = TRUE)
 ```
 
 ## Exploratory Data Analysis
+
 ```{r}
+confirmed_w <- read.csv("https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_confirmed_global.csv")
+
+deaths_w <- read.csv("https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_deaths_global.csv")
+
+recovered_w <- read.csv("https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_recovered_global.csv")
+```
+
+
+
+Old (outdated:)
+```{r eval=FALSE}
 confirmed_w <- read.csv("https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/time_series_19-covid-Confirmed.csv")
 
 deaths_w <- read.csv("https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/time_series_19-covid-Deaths.csv")
@@ -18,8 +30,10 @@ deaths_w <- read.csv("https://raw.githubusercontent.com/CSSEGISandData/COVID-19/
 recovered_w <- read.csv("https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/time_series_19-covid-Recovered.csv")
 ```
 
+
+
 ```{r}
-library(dplyr)
+library(tidyr)
 cleanSingle <- function(x){
   x %>%
     select(-Province.State, -Lat, -Long) %>% 
@@ -32,17 +46,37 @@ cleanSingle <- function(x){
 }
 ```
 
+
 ```{r}
 res <- list(confirmed_w, deaths_w, recovered_w) %>% 
   lapply(cleanSingle) %>% 
-  reduce(left_join,by = c("date", "country"))
+  purrr::reduce(left_join,by = c("date", "country"))
 
 colnames(res)[3:5] <- c("confirmed", "deaths", "recovered")
 ```
 
 ```{r}
+tail(res[res$country == "US", ])
+```
+
+
+```{r}
+unique(res$country)
+```
+
+
+```{r}
 tail(res)
 ```
+```{r}
+write.csv(res, "covid_clean.csv")
+```
+
+```{r}
+range(res$date)
+```
+
+
 
 ```{r}
 reslong <- res %>% reshape2::melt(
@@ -52,8 +86,10 @@ tail(reslong)
 ```
 
 
+
 ```{r}
+library(ggplot2)
 ggplot(data=subset(reslong, country == "Singapore"), aes(x=date, y=value, col=variable)) +
-  geom_smooth(method="loess")
+  geom_smooth(method="loess", formula="y~x")
 ```
 
