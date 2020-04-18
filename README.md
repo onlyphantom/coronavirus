@@ -3,6 +3,8 @@ This repo is created as part of a tutorial / workshop series intended to ease pr
 
 The lecture is divided into 5 parts and its intended audience are absolute beginners in Shiny and web development in general. 
 
+Scripts are periodically updated to work with the file and data structure from CSSE: https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19_data/csse_covid_19_time_series
+
 ## Preview
 A preview of the app we're building:
 

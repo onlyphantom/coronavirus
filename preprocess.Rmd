@@ -17,6 +17,27 @@ corona$date <- as.Date(corona$date)
 str(corona)
 ```
 
+Confirm that each country has one record per day:
+```{r}
+# change SG to CN and compare:
+corona[corona$countryCode == "SG" & corona$date == as.Date("2020-02-14"), ]
+```
+
+```{r}
+xtabs(formula=mpg ~ cyl, data=mtcars)
+```
+
+```{r}
+x <- aggregate(
+          x=corona[, c("confirmed", "cured", "dead")], 
+          by=corona[, c("date", "countryCode")],
+          FUN=sum)
+
+tail(x)
+```
+
+
+
 ```{r}
 vs <- corona[,c("confirmed", "suspected", "cured", "dead")]
 dat <- aggregate(vs, by=corona[,c("date", "countryCode")], FUN=sum)
