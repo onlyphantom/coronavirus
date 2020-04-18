@@ -41,14 +41,14 @@ ui <- fluidPage(
           p("For more materials on Web App development in Python and R, follow ",
             a("me on github", href = "https://www.linkedin.com/in/chansamuel/"), 
             "or connect with me on your favorite social network.", style="font-weight:lighter")
-        ), # end tabPanel-1
+          ), # end tabPanel-1
         tabPanel("Tabular Data",
                  DT::DTOutput("tabular")
-        )
+                 )
         
       ) # end tabsetPanel
     ), # end mainPanel
-    
+
     sidebarPanel(
       helpText("Use the widget below to reactively
                generate the plot elements."),
@@ -63,7 +63,7 @@ ui <- fluidPage(
                      min = as.Date("2019-12-01"),
                      max = Sys.Date(),
                      separator = "to"
-      ),
+                    ),
       checkboxInput("smoothSelector",
                     label = "Smoother?", value=FALSE),
       textInput("titleInput", label = "Plot Title"),
@@ -81,10 +81,10 @@ server <- function(input, output){
   
   dat <- reactive({
     x <- subset(long, 
-                (country == input$countrySelector
-                 & date >= input$dateSelector[1]
-                 & date < input$dateSelector[2]
-                ))
+           (country == input$countrySelector
+            & date >= input$dateSelector[1]
+            & date < input$dateSelector[2]
+            ))
     return(x)
   })
   
@@ -108,7 +108,7 @@ server <- function(input, output){
       ggsave(file, dat())
     }
   )
-  
+
   
   output$tabular <- DT::renderDT({
     x <- corona[corona$country == input$countrySelector,]
